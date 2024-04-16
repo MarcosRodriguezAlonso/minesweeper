@@ -3,5 +3,26 @@
 }
 
 .main-header {
-  color: blueviolet;
+  letter-spacing: 6px;
+  background: blanchedalmond;
+  border-radius: 10px;
+  border: 4px solid orange;
+  color: firebrick;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  max-width: 340px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.board li {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+  display: inline-block;
 }
