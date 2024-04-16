@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "tsc -w",
+    "build:dev": "tsc --watch",
     "build": "tsc",
     "start": "serve public",
     "prepare": "husky"
