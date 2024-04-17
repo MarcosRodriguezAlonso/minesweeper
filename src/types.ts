@@ -1,6 +1,9 @@
-type Box = {
+interface Box {
   hasMine: boolean;
   minesArround: number;
-};
+}
 
-type Board = {};
+interface Board {
+  rows: number;
+  columns: number;
+}
