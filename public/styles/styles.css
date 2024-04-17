@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .main-header {
   letter-spacing: 6px;
   background: #fff;
