@@ -1,13 +1,15 @@
-* {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 .main-header {
   letter-spacing: 6px;
-  background: blanchedalmond;
+  background: #fff;
   border-radius: 10px;
-  border: 4px solid orange;
-  color: firebrick;
+  border: 4px solid #f80;
+  color: #f00;
   text-align: center;
 }
 
@@ -22,6 +24,6 @@
 .board li {
   width: 50px;
   height: 50px;
-  background-color: coral;
+  background-color: #ff7f50;
   display: inline-block;
 }
