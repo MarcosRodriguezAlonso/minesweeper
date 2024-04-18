@@ -1,4 +1,6 @@
-const box: Box = {
+import { Tile, Board } from "./types";
+
+const tile: Tile = {
   hasMine: false,
   minesArround: 0,
 };
