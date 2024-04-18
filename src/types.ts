@@ -1,9 +1,9 @@
-interface Box {
+export interface Tile {
   hasMine: boolean;
   minesArround: number;
 }
 
-interface Board {
+export interface Board {
   rows: number;
   columns: number;
 }
