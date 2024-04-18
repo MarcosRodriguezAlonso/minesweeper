@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.12.7",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
