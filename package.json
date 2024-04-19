@@ -9,7 +9,7 @@
     "start": "serve public",
     "prepare": "husky",
     "test": "jest",
-    "test:dev": "jest --watch"
+    "test:dev": "jest --watchAll .src/__tests__"
   },
   "keywords": [],
   "author": "",

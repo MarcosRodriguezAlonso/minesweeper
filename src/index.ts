@@ -9,6 +9,7 @@ export const tile: Tile = {
 export const board: Board = {
   rows: 5,
   columns: 5,
+  tiles: [],
 };
 
-export const createBoard = (rows: number, columns: number): Board => board;
+export const createBoard = (rows: number): Board => board;
