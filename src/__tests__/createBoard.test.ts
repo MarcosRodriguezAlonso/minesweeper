@@ -1,5 +1,5 @@
-import { createBoard } from "..";
-const { board } = require("..");
+import { createBoard } from "../index";
+import { board } from "../index";
 
 describe(`Given the fucntion createBoard`, () => {
   describe(`When it recibes 5 & 5`, () => {
