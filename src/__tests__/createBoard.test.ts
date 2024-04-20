@@ -1,20 +1,17 @@
 import { createBoard } from "../index";
-import { Board } from "../types";
 
 describe(`Given the fucntion createBoard`, () => {
-  describe(`When it recibes 5`, () => {
-    test(`Then it should return a 5 per 0 board`, () => {
-      const rows = 5;
-
-      const board = createBoard(rows);
-
+  describe(`When it recibes 3 rows`, () => {
+    test(`Then it should return a 3 rows boards`, () => {
+      const rows = 3;
       const expectedBoard = {
-        rows: 5,
-        columns: 0,
-        tiles: [],
+        rows: [[], [], []],
+        columns: [],
       };
 
-      expect(board).toBe(expectedBoard);
+      const createdBoard = createBoard(rows);
+
+      expect(createdBoard).toEqual(expectedBoard);
     });
   });
 });

@@ -1,15 +1,14 @@
 import { Board } from "./types";
-import { Tile } from "./types";
 
-export const tile: Tile = {
-  hasMine: false,
-  minesArround: 0,
+export const createBoard = (rows: number): Board => {
+  const board: Board = {
+    rows: [],
+    columns: [],
+  };
+
+  for (let index = 0; index < rows; index++) {
+    board.rows.push([]);
+  }
+
+  return board;
 };
-
-export const board: Board = {
-  rows: 5,
-  columns: 5,
-  tiles: [],
-};
-
-export const createBoard = (rows: number): Board => board;
